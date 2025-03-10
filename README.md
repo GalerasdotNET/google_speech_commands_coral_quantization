@@ -23,13 +23,18 @@ pip install -r requirements.txt
 ## Installation
 
 1. Clone this repository:
-   git clone https://github.com/GalerasdotNET/google_speech_commands_coral_quantization.git
-   cd google_speech_commands_coral_quantization
+   
+    ```
+    git clone https://github.com/GalerasdotNET/google_speech_commands_coral_quantization.git
+    cd google_speech_commands_coral_quantization
+    ```
 
-2. Download the Google Speech Commands dataset and extract it to the `data/` directory:
+2. Download the Google Speech Commands dataset and extract it to the `audios/` directory:
+   ```
    mkdir audios
    wget -P data/ https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz
    tar -xvzf data/speech_commands_v0.02.tar.gz -C audios/
+   ```
 
 3. Install the dependencies:
    pip install -r requirements.txt
