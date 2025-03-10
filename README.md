@@ -14,16 +14,27 @@ The project provides scripts and configurations to:
 - Python 3.9
 - TensorFlow 2.x
 - TensorFlow Lite
-- Coral Python library (`pycoral`)
+- Coral Python library
 - Google Speech Commands dataset (downloadable from [here](https://storage.googleapis.com/download.tensorflow.org/data/speech_commands_v0.02.tar.gz))
+- Edge TPU Compiler
 
 ### Install Dependencies
-pip install -r requirements.txt
+#### Install PYCoral
+    python3.9 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
 
+#### Install edgetpu-compiler
+    curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
+
+    echo "deb https://packages.cloud.google.com/apt coral-edgetpu-stable main" | sudo tee /etc/apt/sources.list.d/coral-edgetpu.list
+
+    sudo apt-get update
+
+    sudo apt-get install edgetpu-compiler
+
+    
 ## Installation
 
 1. Clone this repository:
-   
     ```
     git clone https://github.com/GalerasdotNET/google_speech_commands_coral_quantization.git
     cd google_speech_commands_coral_quantization
@@ -42,23 +53,30 @@ pip install -r requirements.txt
 ## Usage
 
 ### Step 1
-Create Keras model with create_model_keras.ipynb
+Create Keras model with `create_model_keras.ipynb`
 
 ### Step 2
-With the keras model, create the quantized TensorFlow Lite Model
+With the keras model, create the quantized TensorFlow Lite Model using `create_model_coral.ipynb`
 
 ### Step 3
 use edgetpu_compiler to compile a TensorFlow Lite model into a compatible Edge TPU model
+```
+    edgetpu_compiler model_quantized.tflite
+```
+
 
 ### Evaluation
 Evaluate the quantized model on the test dataset
 
 ## Results
+
 ### Training
 result With 20 epochs 
 ![Training loss - accuracy](./result_images/training.jpeg)
 
 ### Evaluations
+
+#### Edge TPU vs Apple M3 Max
 
 ## Project Structure
 
