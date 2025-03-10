@@ -53,6 +53,13 @@ use edgetpu_compiler to compile a TensorFlow Lite model into a compatible Edge T
 ### Evaluation
 Evaluate the quantized model on the test dataset
 
+## Results
+### Training
+result With 20 epochs 
+![Training loss - accuracy](./result_images/training.jpeg)
+
+### Evaluations
+
 ## Project Structure
 
 - `google_speech_commands_coral_quantization/` - Root directory
