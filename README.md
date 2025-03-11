@@ -11,7 +11,7 @@ The project provides scripts and configurations to:
 
 ## Prerequisites
 
-- Python 3.9
+- Python 3.9    
 - TensorFlow 2.x
 - TensorFlow Lite
 - Coral Python library
@@ -29,7 +29,8 @@ The project provides scripts and configurations to:
 
     sudo apt-get update
 
-    sudo apt-get install edgetpu-compiler
+    sudo apt-get install edgetpu-compiler libedgetpu1-std -y
+
 
     
 ## Installation
@@ -78,6 +79,9 @@ result With 20 epochs
 
 #### Edge TPU vs Apple M3 Max
 ![Edge TPU vs Apple M3 Max](./result_images/M3_Max.png)
+
+#### Edge TPU vs NVIDIA GeForce RTX 4060
+![Edge TPU vs Apple M3 Max](./result_images/NVIDIA_GeForce_RTX_4060.png)
 
 ## Project Structure
 
