@@ -22,6 +22,9 @@ The project provides scripts and configurations to:
 #### Install PYCoral
     python3.9 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
 
+#### visit project
+    https://coral.ai/docs/accelerator/get-started/
+
 #### Install edgetpu-compiler
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 
@@ -77,6 +80,7 @@ result With 20 epochs
 ### Evaluations
 
 #### Edge TPU vs Apple M3 Max
+![Edge TPU vs Apple M3 Max](./result_images/M3_Max.png)
 
 ## Project Structure
 
