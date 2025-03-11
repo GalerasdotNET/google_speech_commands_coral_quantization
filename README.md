@@ -6,7 +6,7 @@ This repository contains code and resources to quantize models for Google's Spee
 
 The project provides scripts and configurations to:
 - Train and evaluate models based on the [Google Speech Commands dataset](https://ai.googleblog.com/2017/08/launching-speech-commands-dataset.html).
-- Quantize models to reduce their size and improve performance on Coral devices.
+- Quantize models to reduce their size and improve performance on [Coral devices](https://coral.ai/docs/accelerator/get-started/).
 - Deploy quantized models on hardware compatible with TensorFlow Lite Micro.
 
 ## Prerequisites
@@ -21,9 +21,6 @@ The project provides scripts and configurations to:
 ### Install Dependencies
 #### Install PYCoral
     python3.9 -m pip install --extra-index-url https://google-coral.github.io/py-repo/ pycoral~=2.0
-
-#### visit project
-    https://coral.ai/docs/accelerator/get-started/
 
 #### Install edgetpu-compiler
     curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
