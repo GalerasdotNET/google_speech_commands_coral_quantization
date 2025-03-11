@@ -83,6 +83,9 @@ result With 20 epochs
 #### Edge TPU vs NVIDIA GeForce RTX 4060
 ![Edge TPU vs Apple M3 Max](./result_images/NVIDIA_GeForce_RTX_4060.png)
 
+#### Edge TPU vs AMD Ryzen 9 3900X
+![Edge TPU vs Apple M3 Max](./result_images/AMD_Ryzen_9_3900X.png)
+
 ## Project Structure
 
 - `google_speech_commands_coral_quantization/` - Root directory
