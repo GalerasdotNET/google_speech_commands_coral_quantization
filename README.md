@@ -113,19 +113,19 @@ This project is licensed under the [MIT License](LICENSE).
 
 For questions or support, contact [GalerasdotNET](mailto:galeras.net@udenar.edu.co).
 
-# Citación de google_speech_commands_coral_quantization
+# Citation
 
-Si utilizas este proyecto en tu trabajo o investigación, por favor cita como sigue:
+If you use this project in your work or research, please cite as follows:
 
-> Roa, Felipe; Insuasti, Jesús; y Zapata, Carlos Mario. (2025). *google_speech_commands_coral_quantization: Cuantización de comandos de voz de Google para Coral Edge TPU* (Versión 1.0). GitHub. Recuperado de [https://github.com/GalerasdotNET/google_speech_commands_coral_quantization](https://github.com/GalerasdotNET/google_speech_commands_coral_quantization).
+> Roa, Felipe; Insuasti, Jesús; and Zapata, Carlos Mario. (2025). *google_speech_commands_coral_quantization: Quantization of Google Speech Commands for Coral Edge TPU* (Version 1.0). GitHub. Retrieved from [https://github.com/GalerasdotNET/google_speech_commands_coral_quantization](https://github.com/GalerasdotNET/google_speech_commands_coral_quantization).
 
-### BibTeX (opcional)
-Para usuarios de LaTeX, aquí está la entrada en formato BibTeX:
+### BibTeX (optional)
+For LaTeX users, here is the BibTeX entry:
 
 ```bibtex
 @software{roainsuastizapata2025google,
   author = {Roa, Felipe and Insuasti, Jesús and Zapata, Carlos Mario},
-  title = {google_speech_commands_coral_quantization: Cuantización de comandos de voz de Google para Coral Edge TPU},
+  title = {google_speech_commands_coral_quantization: Quantization of Google Speech Commands for Coral Edge TPU},
   version = {1.0},
   year = {2025},
   publisher = {GitHub},
